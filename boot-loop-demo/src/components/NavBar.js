@@ -1,5 +1,7 @@
+
 export default function NavBar() {
   return (
+    // NavBar Component from DaisyUI (Refactored to be used for what The Client Needs)
     <>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
