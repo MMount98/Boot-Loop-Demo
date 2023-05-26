@@ -1,3 +1,10 @@
+const Section = ({ title, children }) => (
+  <>
+    <h3 className="text-2xl md:text-4xl m-7 font-Oswald">{title}</h3>
+    <p className="font-Oswald text-black">{children}</p>
+  </>
+);
+
 export default function About() {
   return (
     <>
@@ -8,8 +15,7 @@ export default function About() {
       />
       <div className="divider lg:divider-horizontal py-10 md:py-32 before:bg-base-100 after:bg-base-100"></div>
       <div className="z-0 w-full md:w-96">
-        <h3 className="text-2xl md:text-4xl m-7 font-Oswald">About Us</h3>
-        <p className="font-Oswald text-black">
+        <Section title="About Us">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat
           ut orci in accumsan. Cras nec erat vitae metus eleifend eleifend.
           Quisque tincidunt lectus erat, maximus condimentum eros commodo at.
@@ -17,9 +23,8 @@ export default function About() {
           Suspendisse potenti. Suspendisse non auctor nunc, eu gravida libero.
           Donec quam dui, pretium id elit non, pharetra tincidunt purus. Nam non
           ultricies sapien. Suspendisse a arcu ligula.
-        </p>
-        <h3 className="text-2xl md:text-4xl m-7 font-Oswald">Our Mission</h3>
-        <p className="font-Oswald text-black">
+        </Section>
+        <Section title="Our Mission">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat
           ut orci in accumsan. Cras nec erat vitae metus eleifend eleifend.
           Quisque tincidunt lectus erat, maximus condimentum eros commodo at.
@@ -27,7 +32,7 @@ export default function About() {
           Suspendisse potenti. Suspendisse non auctor nunc, eu gravida libero.
           Donec quam dui, pretium id elit non, pharetra tincidunt purus. Nam non
           ultricies sapien. Suspendisse a arcu ligula.
-        </p>
+        </Section>
       </div>
     </>
   );
