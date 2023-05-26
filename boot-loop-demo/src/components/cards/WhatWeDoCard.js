@@ -35,7 +35,7 @@ export default function WhatWeDoCard(props) {
             <div className="modal-box relative p-4 rounded-lg bg-white">
               <label
                 htmlFor={`my-modal-${card.id}`}
-                className="btn btn-sm btn-circle absolute right-2 top-2 text-gray-700"
+                className="btn btn-sm btn-circle absolute right-2 top-2 text-secondary"
               >
                 ✕
               </label>
