@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily:{
-        'Oswald': ['Oswald', 'sans-serif']
+      fontFamily: {
+        Oswald: ["Oswald", "sans-serif"],
       },
       boxShadow: {
         "3xl": "0 35px 60px -15px rgba(255, 255, 255)",
@@ -23,20 +23,20 @@ module.exports = {
       "garden",
       {
         mytheme: {
-          primary: "#228B22",
+          primary: "#007f5f",
 
-          secondary: "#C0C0C0",
+          secondary: "#A9A9A9",
 
-          accent: "#00BFFF",
+          accent: "#3d405b",
 
-          neutral: "#D3D3D3",
+          neutral: "#2b2d42",
 
-          success: "#00FF00",
+          success: "#52b788",
 
-          warning: "#FFBF00",
+          warning: "#f77f00",
 
-          error: "#FF0000",
-          "base-100": "#228b22",
+          error: "#d62828",
+          "base-100": "#f8f9fa",
         },
       },
     ],

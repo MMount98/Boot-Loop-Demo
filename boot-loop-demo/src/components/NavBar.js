@@ -2,7 +2,7 @@ export default function NavBar() {
   return (
     // NavBar Component from DaisyUI (Refactored to be used for what The Client Needs)
     <>
-      <div className="navbar z-50 bg-base-100 sticky top-0 shadow-lg">
+      <div className="navbar z-50 bg-secondary sticky top-0 shadow-lg">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ export default function NavBar() {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-Oswald text-lg"
             >
               <li>
                 <a>Item 1</a>
@@ -36,12 +36,12 @@ export default function NavBar() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-3xl font-Oswald">
+          <a className="btn btn-ghost normal-case text-3xl font-Oswald text-primary">
             Boot Loop
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 text-primary font-Oswald text-lg">
             <li>
               <a>Item 1</a>
             </li>
@@ -54,7 +54,7 @@ export default function NavBar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contact Us</a>
+          <a className="btn font-Oswald text-lg bg-primary text-neutral">Contact Us</a>
         </div>
       </div>
     </>
