@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     // Footer Component from DaisyUI (Refactored to be used for what The Client Needs)
     <>
-      <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+      <footer className="footer items-center p-4 bg-neutral text-neutral-content shadow-4xl">
         <div className="items-center grid-flow-col">
           <p>Copyright © 2023 - All right reserved</p>
         </div>

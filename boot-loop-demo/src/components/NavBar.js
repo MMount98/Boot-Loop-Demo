@@ -1,9 +1,8 @@
-
 export default function NavBar() {
   return (
     // NavBar Component from DaisyUI (Refactored to be used for what The Client Needs)
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar z-50 bg-base-100 sticky top-0 shadow-lg">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
