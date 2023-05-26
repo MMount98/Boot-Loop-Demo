@@ -1,4 +1,5 @@
 import About from "../content/About";
+import ContactUs from "../content/ContactUs";
 import WhatWeDo from "../content/WhatWeDo";
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row justify-around px-4 sm:px-8 md:px-44 py-4">
           <WhatWeDo />
         </div>
+        <div className="divider divider-vertical before:bg-base-100 after:bg-base-100 mx-20"></div>
+        <h2 className="text-center text-6xl m-6">Contact Us</h2>
+        <ContactUs />
       </div>
     </>
   );
